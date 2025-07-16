@@ -1,8 +1,8 @@
-# 🚀 Taief AI Assistant Pro  
+# 🚀 TaiefGPT 
 
 A professional, futuristic AI chatbot built with HTML, CSS, JavaScript — designed for seamless conversations with advanced features like persona modes, voice response, memory, and math rendering.  
 
-🌐 **Live Demo:** [taiefgpt.pages.dev](https://taiefgpt.pages.dev)  
+🌐 **Live Demo:** [TaiefGPT](https://taiefgpt.pages.dev)  
 
 ---
 
@@ -23,10 +23,10 @@ Select how the AI responds:
 
 ---
 
-### 🧠 Memory Mode  
-- Remembers **last 10 messages** per session  
+### 🧠 Memory and summerizing Mode  
+- Remembers **last 10+ messages** per session  
 - Gives context-aware answers based on the chat history  
-- You can preview memory with **Show Memory** button  
+- You can preview memory with **Show and summerize Memory** button  
 
 ---
 
@@ -36,8 +36,8 @@ Select how the AI responds:
 
 ---
 
-### 📝 Export Chat  
-- Download your entire conversation with **Export Chat** button  
+### 📝 Export and Customize Chat  
+- Download and Customize your entire conversation with **Export and Customize Chat** button  
 - Saved as a `.txt` file for later reference  
 
 ---
