@@ -1,0 +1,139 @@
+
+  body {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+  }
+#typewriter {
+  font-size: 1em;
+  font-weight: bold;
+  color: #00ffff;
+  border-right: 2px solid #00ffff;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: #00ffff; }
+}
+#typingIndicator {
+    margin-top: 10px;
+    font-style: italic;
+    color: lime;
+    display: none;
+  }
+  header {
+    margin-top: 10px;
+    font-size: 2em;
+    text-shadow: 0 0 10px cyan;
+    animation: glow 2s infinite alternate;
+    align: center;
+  }
+  @keyframes glow {
+    from { text-shadow: 0 0 10px cyan; }
+    to { text-shadow: 0 0 20px lime; }
+  }
+  #chatbox {
+    font-family: 'Space Grotesk', sans-serif;
+    width: 85%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid cyan;
+    border-radius: 15px;
+    padding: 20px;
+    height: 45vh;
+    overflow-y: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 10px cyan;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  .user, .bot {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    animation: fadeIn 0.5s ease;
+    position: relative;
+    z-index: 1;
+  }
+  .user {
+    background: rgba(0, 255, 255, 0.2);
+    text-align: right;
+  }
+  .bot {
+    background: rgba(0, 255, 100, 0.2);
+    text-align: left;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  #inputArea {
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    margin-top: 20px;
+  }
+  input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    box-shadow: 0 0 5px cyan;
+    margin-right: 10px;
+  }
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: cyan;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 5px cyan;
+    margin: 5px;
+  }
+  select {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid cyan;
+  }
+  #voiceToggle, #memoryButton, #exportButton {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background: lime;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  #typingIndicator {
+    margin-top: 10px;
+    font-style: italic;
+    color: lime;
+    display: none;
+  }
